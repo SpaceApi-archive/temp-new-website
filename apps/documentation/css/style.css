@@ -1,0 +1,125 @@
+
+.documentation-example-minimal:after {
+    content: "Minimal"
+}
+
+.documentation-example-cache-projects:after {
+    content: "Specifying the cache update schedule and project websites"
+}
+
+.documentation-example-feeds:after {
+    content: "Specifying feeds"
+}
+
+.documentation-example-radio-show:after {
+    content: "Specifying radio show schedules"
+}
+
+.documentation-example-sensors:after {
+    content: "Specifying sensors"
+}
+
+a i {
+    margin-right: 10px;
+}
+
+.accordion-inner {
+    padding-left: 42px;
+}
+
+.documentation-accordion-inner-row {
+    margin-bottom: 10px;
+}
+
+.documentation-accordion-inner-row > div:first-child {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#left-tab-filters .span4 {
+    width: 260px;
+}
+
+#left-tab-filters .span6 {
+    width: 320px;
+}
+
+.documentation-content-page {
+    overflow-x: hidden;
+}
+
+#left-tab-filters ol {
+    margin-left: 40px;
+}
+
+.list_filters a
+{
+    text-decoration: none;
+}
+
+.tooltip.left {
+    margin-left: -12px;
+}
+
+.list_filters ul {
+    list-style: none;
+}
+
+.list_filters .tooltip {
+}
+
+.list_filters .tooltip.in {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+/*
+.tooltip.in hr {
+    margin: 3px;
+    width: 100%;
+    border-width: 1px;
+}
+*/
+
+table.documentation-filters-example {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.documentation-filters-example th:first-of-type {
+    width: 100px;
+}
+
+.documentation-filters-example tr {
+    padding: 10px;
+    /*background: #eee;*/
+    line-height: 1.5em;
+}
+
+.documentation-filters-example td,
+.documentation-filters-example th {
+    text-align: left;
+    vertical-align: top;
+}
+
+.documentation-filters-example th {
+    /*background: #eee;*/
+}
+
+/**************************
+ * Filter Dialog
+ */
+
+.filter-dialog .ui-dialog-titlebar {
+    padding: 0 !important;
+}
+
+.filter-dialog .ui-dialog-title {
+    padding-left: 5px !important;
+    font-size: 10pt !important;
+}
+
+
+.filter-dialog .ui-dialog-content {
+    padding: 5px !important;
+}

@@ -1,0 +1,3 @@
+<Files "fetch_update.sh">  
+    Deny from All
+</Files>

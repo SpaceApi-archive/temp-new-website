@@ -1,0 +1,13 @@
+{
+    "App": "Error Page",
+    "Description": "Shows a generic error page.",
+    "Authors": [
+        {
+            "Name": "Romain Schmitz",
+            "Nickname": "Slopjong",
+            "Hackerspace": "Syn2cat"
+        }
+    ],
+    "License": "",
+    "Updated": "20.5.2013"
+}
