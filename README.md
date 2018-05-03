@@ -23,7 +23,7 @@ If you use the apache web server, put the following VirtualHost to your apache c
     DocumentRoot "/srv/http/spaceapi_app"
     ServerName myapp.spaceapi.net
     &lt;Directory /srv/http/spaceapi_app>
-                Options -Indexes FollowSymLinks MultiViews
+                Options -Indexes +FollowSymLinks +MultiViews
                 AllowOverride All
                 Order allow,deny
                 allow from all
