@@ -19,19 +19,10 @@ $page->addContent('
       <ul class="nav nav-tabs">
         <li class="active"><a href="#left-tab-reference" data-toggle="tab">Reference</a></li>
         <li><a href="#left-tab-examples" data-toggle="tab">Examples</a></li>
-        <li><a href="#left-tab-filters" data-toggle="tab">Filters</a></li>
 
       </ul>
       <div class="tab-content documentation-content-page">
 ');
-/*
-    <div class="tab-pane active" id="tab1">
-      <p>I'm in Section 1.</p>
-    </div>
-    <div class="tab-pane" id="tab2">
-      <p>Howdy, I'm in Section 2.</p>
-    </div>
-*/
 
 //$app_dir = APPSDIR . $page->activePage();
 
