@@ -65,7 +65,7 @@ $html = <<<HTML
             Daily all the endpoints are revalidated and after a certain grace time permanent invalid implementations are likely to be removed from the directory to guarantee Space API-based applications a certain quality.
         </p>
         <p>
-            Developers that want to write a Space API-based app should take a look at the <a href="directory">directory page</a>.
+            Developers that want to write a Space API-based app should take a look at the <a href="https://directory.spaceapi.net/">directory</a>.
         </p>
     </section>
     
