@@ -1,15 +1,10 @@
-AddType  application/json  .json
-
-Options -Indexes
-
-<IfModule mod_rewrite.c>
-#Options +FollowSymlinks
+# Requires mod_rewrite.c
 RewriteEngine on
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*) index.php [QSA,NE,L]
-</IfModule>
 
+# Custom error pages
 ErrorDocument 400 /error.html
 ErrorDocument 401 /error.html
 ErrorDocument 403 /error.html
