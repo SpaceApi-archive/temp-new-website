@@ -1,6 +1,9 @@
 spaceapi.net Website
 ====================
 
+[![CircleCI][circle-ci-badge]][circle-ci]
+[![Docker Image][docker-image-badge]][docker-image]
+
 Docker Based Setup
 ------------------
 
@@ -25,3 +28,15 @@ To watch the logs:
 To stop and remove the container:
 
     $ docker stop spaceapi
+
+Docker Image
+------------
+
+The Docker image is automatically built and published to
+https://hub.docker.com/r/spaceapi/website/ when pushing to `master`.
+
+<!-- Badges -->
+[circle-ci]: https://circleci.com/gh/SpaceApi/temp-new-website/tree/master
+[circle-ci-badge]: https://circleci.com/gh/SpaceApi/temp-new-website/tree/master.svg?style=shield
+[docker-image]: https://hub.docker.com/r/spaceapi/website/
+[docker-image-badge]: https://img.shields.io/docker/pulls/spaceapi/website.svg
