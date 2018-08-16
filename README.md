@@ -1,11 +1,10 @@
-spaceapi.net Website
-====================
+# spaceapi.net Website
 
 [![CircleCI][circle-ci-badge]][circle-ci]
 [![Docker Image][docker-image-badge]][docker-image]
 
-Docker Based Setup
-------------------
+
+## Docker Based Setup
 
 First, build the image:
 
@@ -29,11 +28,12 @@ To stop and remove the container:
 
     $ docker stop spaceapi
 
-Docker Image
-------------
+
+## Docker Image
 
 The Docker image is automatically built and published to
 https://hub.docker.com/r/spaceapi/website/ when pushing to `master`.
+
 
 <!-- Badges -->
 [circle-ci]: https://circleci.com/gh/SpaceApi/temp-new-website/tree/master
